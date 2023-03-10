@@ -56,7 +56,7 @@ export const pedidos ={
                    <h3 class="card-text">${cervezas[posicionCerveza].nombre}</h3> 
                     <p class="card-text">${cervezas[posicionCerveza].descripcion}</p>
                 </div>
-                <img src="${cervezas[posicionCerveza].imagen}" class="card-img-bottom w-50 h-50 align-items-center" alt="FotoCerveza">
+                <img src="${cervezas[posicionCerveza].imagen}" class="card-img-bottom w-50 h-50 align-items-center" alt="cervezaImagen">
             </div>
             `
             const descripcion = document.querySelector("#descripcionCervezas")
