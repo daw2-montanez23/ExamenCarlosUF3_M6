@@ -1,3 +1,7 @@
 export const header = {
-    template: `Alumno: Francesc Montañez Rosell`
+    template: `<p>Alumno: Francesc Montañez Rosell</p>`,
+    script: ()=>{
+        console.log('Header')
+        
+    }
 }
