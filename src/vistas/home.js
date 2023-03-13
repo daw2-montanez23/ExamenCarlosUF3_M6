@@ -1,4 +1,4 @@
-export const home ={
+export const home ={//exportamos una constante con un template en el cual habra un titulo y el contenido del home ademas de un script con un console.log
     template: `      
     <div class="text-center" id="titulo">
     <div><h1>Birras y tapas</h1></div>
@@ -11,8 +11,6 @@ export const home ={
                 <p>Esto es lo que has tomado ya ...</p>
             </div>
         </div>
-
-        <button type="button" class="btn btn-primary editar"  data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar Pedido</button>
     </div> `,
     script: ()=>{
         console.log('Home')

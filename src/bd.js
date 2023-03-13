@@ -1,4 +1,4 @@
-export const cervezas = [
+export const cervezas = [//exportaremos la base de datos con todo lo necesario de las cervezas
     {
       id: 1,
       nombre: "Mahou Cinco Estrellas",
